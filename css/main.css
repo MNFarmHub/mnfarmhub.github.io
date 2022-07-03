@@ -1,12 +1,12 @@
 body {
-  font-family: "Terminus", sans-serif;
+  font-family: "open-sans-v29-latin-regular", sans-serif;
   margin: 5vh 4vw;
   background: #f0f0f0;
   font-size: 2vh;
 }
 
 code {
-  font-family: "Terminus", "Lucida Console", monospace;
+  font-family: "open-sans-v29-latin-regular", "Lucida Console", monospace;
 }
 
 pre {
@@ -86,10 +86,6 @@ ul {
   justify-self: start;
   grid-column: 1;
   grid-row: 2;
-}
-
-#bloglist {
-  padding-left: 4vh;
 }
 
 .leftind {
