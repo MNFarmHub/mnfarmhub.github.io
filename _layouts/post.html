@@ -1,0 +1,13 @@
+---
+layout: default 
+custom_css:
+- post
+---
+<h2>{{ page.title }}</h2>
+
+<article>
+{{ content }}
+</article>
+<p>{{ page.date | date_to_string }}</p>
+
+{% include navigation.html %}
