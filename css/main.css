@@ -61,21 +61,6 @@ ul {
   }
 }
 
-#accent {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 2vw;
-  height: 100vh;
-  background: linear-gradient(
-    27deg,
-    #1c3a50 25%,
-    #375a6a 25% 50%,
-    #56628b 50% 75%,
-    #649ba9 75%
-  );
-}
-
 #maingrid {
   display: grid;
   grid-template-columns: fit-content(100vw) auto;
